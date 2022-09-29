@@ -36,4 +36,4 @@ console.log('дані із localeStorage',initPage);
 // Встановлюємо час
 if (initPage) {
   player.setCurrentTime(initPage)
-}
+}else { player.setCurrentTime(0)}
